@@ -14,6 +14,5 @@ public interface DatabaseConnection {
     Connection connect() throws SQLException;
     public void disconnect() throws SQLException;
     boolean isConnected() throws SQLException;
-    public User 
     
 }
