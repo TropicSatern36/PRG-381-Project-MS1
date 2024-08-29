@@ -12,7 +12,7 @@
         <title>Home Page</title>
          <style>
             body {        
-            background: url('https://img.freepik.com/free-vector/futuristic-background-with-lines_23-2148487905.jpg?t=st=1724228757~exp=1724232357~hmac=5f41634eddde12fd013e6b00693756ae6ae597cd99bf305301b2805a6681d108&w=1380') no-repeat center center fixed;
+            background: url('background.jpg') no-repeat center center fixed;
             background-size: cover;
             height: 100vh;
             margin: 0;
