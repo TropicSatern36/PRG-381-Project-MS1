@@ -22,7 +22,6 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Form container */
         .form-container {
             background: white;
             padding: 20px;
@@ -36,7 +35,6 @@
             margin-bottom: 20px;
         }
 
-        /* Form styling */
         form input[type="text"], form input[type="password"], form button {
             width: 100%;
             padding: 10px;
@@ -52,16 +50,29 @@
             border: none;
             cursor: pointer;
         }
+        form input[type="submit"] {
+            width: 100%;
+            padding: 15px; 
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            background: linear-gradient(45deg,#1F51FF, #81C784);; 
+            color: white;
+            font-size: 18px; 
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
 
-        form button:hover {
-            background-color: #45a049;
+        form input[type="submit"]:hover {
+            background: linear-gradient(45deg,#1F51FF, #81C784);; 
         }
     </style>
 </head>
 <body>
     <div class="form-container">
         <h1>Login</h1>
-        <form action="login.jsp" method="POST">
+        <form action="welcome.jsp" method="POST">
             <input type="text" name="txtUsername" placeholder="Username" required />
             <input type="password" name="txtPassword" placeholder="Password" required />
             <input type="submit" value="Login" name="btnLogin" />

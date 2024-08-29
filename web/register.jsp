@@ -22,7 +22,6 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Form container */
         .form-container {
             background: white;
             padding: 20px;
@@ -36,7 +35,6 @@
             margin-bottom: 20px;
         }
 
-        /* Form styling */
         form input[type="text"], form input[type="email"], form input[type="password"], form button {
             width: 100%;
             padding: 10px;
@@ -47,7 +45,7 @@
         }
 
         form button {
-            background-color: #4CAF50;
+            background-color: #1F51FF;
             color: white;
             border: none;
             cursor: pointer;
@@ -56,6 +54,19 @@
         form button:hover {
             background-color: #45a049;
         }
+        
+        .buttons {
+        width: 100%;
+        padding: 15px; 
+        margin: 10px 0;
+        border: none;
+        border-radius: 4px;
+        background: linear-gradient(45deg,#1F51FF, #81C784); 
+        color: white;
+        font-size: 18px; 
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
     </style>
     </head>
     <body>
@@ -91,8 +102,8 @@
                     </tr>
                 </tbody>
             </table>
-            <input type="submit" value="Register" name="btnRegister" />
-            <input type="reset" value="Clear" name="btnClear" />
+            <input type="submit" value="Register" name="btnRegister" class="buttons" />
+            <input type="reset" value="Clear" name="btnClear" class="buttons" />
         </form>
         </div>
     </body>
