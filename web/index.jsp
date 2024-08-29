@@ -38,7 +38,7 @@
             button {
                 padding: 20px 40px;
                 font-size: 24px;
-                background-color: #4CAF50;
+                background: linear-gradient(45deg,#1F51FF, #81C784);
                 color: white;
                 border: none;
                 border-radius: 8px;
@@ -47,7 +47,7 @@
             }
 
             button:hover {
-                background-color: #45a049;
+                background: #81C784;
             }
         </style>
     </head>
